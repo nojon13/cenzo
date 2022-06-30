@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cenzo</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <section id="header">
+        <nav class="nav-header">
+            <div class="header-logo-container">
+                <img src="img/logo-engraved-invert.svg" alt="cenzo-logo-image" height="80" class="header-logo-img">
+            </div>
+            <div class="header-nav-links-container">
+                <ul>
+                    <li>EXPERIENCES</li>
+                    <li>PRIVATE EVENTS</li>
+                    <li>DINING</li>
+                    <li>MEETINGS</li>
+                    <li>VIRTUAL TOUR</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="carouselStartpageFade" class="carousel slide carousel-fade bg-carousel-container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="img/carousel/pool.jpg" class="d-block w-100" alt="pool">
+                </div>
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="img/carousel/veranda.jpg" class="d-block w-100" alt="veranda">
+                </div>
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="img/carousel/ocean-view.jpg" class="d-block w-100" alt="ocean-view">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="booking-container">
+            <div class="booking-header">
+                <h4>IMAGINE YOUR STAY</h4>
+            </div>
+            <div class="booking-location">
+                <select class="" name="location">
+                    <option value="">Choose a location</option>
+                    <option value="cenzo">Cenzo, Italy</option>
+                    <option value="rome">Rome, Italy</option>
+                    <option value="palermo">Palermo, Italy</option>
+                </select>
+            </div>
+            <div class="booking-dates">
+                <input type="date" placeholder="Choose Dates">
+            </div>
+            <div class="booking-one-touch">
+                <a href="#" class="one-touch-button">One-touch booking</a>
+            </div>
+            <div class="booking-rooms">
+                <select class="" name="rooms">
+                    <option value="1room">1 Room</option>
+                    <option value="2rooms">2 Rooms</option>
+                    <option value="3rooms">3 Rooms</option>
+                    <option value="4rooms">4 Rooms</option>
+                </select>
+            </div>
+            <div class="booking-guests">
+                <select class="" name="guests">
+                    <option value="guest">1 Guest</option>
+                    <option value="2guests" selected>2 Guests</option>
+                    <option value="3guests">3 Guests</option>
+                    <option value="4guests">4 Guests</option>
+                </select>
+            </div>
+            <div class="booking-code">
+                <input type="text" placeholder="Enter Code (Optional)">
+            </div>
+            <div class="booking-contact-phone">
+                <a href="#">Contact by phone</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase">
+        <div class="showcase-container">
+            <div class="showcase-left">
+                <img src="img/showcase/dinner.png" alt="a table filled with delicious food">
+                <h4>AWARD-WINNING CUISINE</h4>
+                <p>The masterful hands of third-generation chef Cerenzio Cenzo have been sculpting rich dining experiences since he was only 7 years old. Rooted in Italian culinary history and heritage, the kitchens of Cenzo are known the world over
+                    for their dilectable pasta, pizza and seafood dishes.</p>
+                <a class="button-link" href="#">
+                    EXPLORE THE MENU
+                </a>
+            </div>
+            <div class="showcase-right">
+                <img src="img/showcase/room.png" alt="a snazzy hotel room">
+                <h4>SINGULAR SPLENDOR</h4>
+                <p>The legendary beauty of Cenzo, Italy can only truly be seen with the naked eye. Drifting high upon the landings of the Positano hills, our balconies call to the distant cliffs and are rewarded with picturesque vistas in every
+                    direction.</p>
+                <a class="button-link" href="#">
+                    EXPLORE THE VIEW
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
